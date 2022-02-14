@@ -26,7 +26,7 @@ export const UniversalInput: React.FC<UniversalInputPropsType> = (
 
     return (
         <input pattern={'^[1-9]+$'}
-               inputMode={"numeric"}
+               inputMode="numeric"
                value={value}
                onInput={onChangeHandler}
                className={indicatorInput ?  s.inputError: s.input}
